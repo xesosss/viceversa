@@ -20,4 +20,5 @@ from . import start
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', start.start),
+    path('reverses/', start.reverse, name='reverse'),
 ]
